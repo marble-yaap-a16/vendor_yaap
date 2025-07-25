@@ -41,6 +41,9 @@ PRODUCT_PACKAGES += \
 # Don't compile SystemUITests
 EXCLUDE_SYSTEMUI_TESTS := true
 
+# Fake Encryption 
+PRODUCT_SYSTEM_PROPERTIES += ro.crypto.state=encrypted
+
 # Flags
 ifeq ($(TARGET_BUILD_VARIANT), user)
     # Strip the local variable table and the local variable type table to reduce
