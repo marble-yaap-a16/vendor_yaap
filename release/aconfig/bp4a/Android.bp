@@ -17,6 +17,7 @@ aconfig_value_set {
     name: "aconfig_value_set-yaap-bp4a",
     values: [
         "aconfig-values-bp4a-android.view.accessibility-all",
+        "aconfig-values-bp4a-com.android.graphics.surfaceflinger.flags-all",
         "aconfig-values-bp4a-com.android.launcher3-all",
         "aconfig-values-bp4a-com.android.settings.flags-all",
         "aconfig-values-bp4a-com.android.systemui-all",
