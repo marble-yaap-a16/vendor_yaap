@@ -104,9 +104,7 @@ SYSTEMUI_OPTIMIZE_JAVA ?= true
 
 # Product overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/yaap/overlay/frameworks
-PRODUCT_PACKAGE_OVERLAYS += vendor/yaap/overlay/packages
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/yaap/overlay/frameworks
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/yaap/overlay/packages
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay \
     DeviceConfigOverlay \
@@ -122,6 +120,7 @@ PRODUCT_PACKAGES += \
     FrameworksOverlayVanilla \
     LatinIMEOverlayVanilla \
     OpenDeltaOverlayVanilla \
+    SettingsOverlayVanilla \
     SettingsProviderOverlayVanilla \
     ThemePickerOverlayVanilla
 # Include LatinIME dictionaries
