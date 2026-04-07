@@ -25,5 +25,6 @@ aconfig_value_set {
         "aconfig-values-bp4a-android.media.tv.flags-all",
         "aconfig-values-bp4a-com.android.settingslib.flags-all",
         "aconfig-values-bp4a-com.android.wallpaper-all",
+        "aconfig-values-bp4a-com.android.graphics.hwui.flags-all",
     ],
 }
